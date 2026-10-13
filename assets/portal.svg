@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eaffd0"/>
+      <stop offset="55%" stop-color="#97ce4c"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="200" cy="110" rx="70" ry="95" fill="url(#g)" opacity="0.9">
+    <animate attributeName="rx" values="66;74;66" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="200" cy="110" rx="48" ry="72" fill="none" stroke="#eaffd0" stroke-width="4" stroke-dasharray="14 10">
+    <animateTransform attributeName="transform" type="rotate" from="0 200 110" to="360 200 110" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="200" cy="110" rx="28" ry="46" fill="none" stroke="#2e7d32" stroke-width="3" stroke-dasharray="8 8">
+    <animateTransform attributeName="transform" type="rotate" from="360 200 110" to="0 200 110" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <text x="200" y="212" text-anchor="middle" font-family="Verdana, sans-serif" font-size="14" fill="#97ce4c">Oh geez, Víctor... ¡otro portal!</text>
+</svg>
